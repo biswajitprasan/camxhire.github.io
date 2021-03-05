@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sansita+Swashed:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #ff4f00;
+    --white: #ffffff;
+    indigo: #6610f2;
+    purple: #6f42c1;
+    pink: #d63384;
+    red: #dc3545;
+    orange: #fd7e14;
+    yellow: #ffc107;
+    green: #198754;
+    teal: #20c997;
+    cyan: #0dcaf0;
+}
+
+.navbar {
+    background-color: var(--primary);
+}
+
+.nav-item a {
+    color: white !important;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.recipes {
+    padding: 30px 0px;
+    position: relative;
+
+}
+
+.recipes_title {
+    padding: 30px;
+    font-size: 22px;
+    font-weight: bolder;
+    font-family: 'Akaya Telivigala', cursive;
+    color: #5F249F;
+}
+
+.product_card p {
+    font-size: 20px;
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: bolder;
+}
+
+.explore a {
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: 'Akaya Telivigala', cursive;
+    color: #DA291C;
+}
+
+.social {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.moto{
+    background-color: #5F249F;
+}
+.moto_title p{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Sansita Swashed', cursive;
+    color: white;
+}
+
+.footer{
+    background-color: #DB291D;
+}
+.footer_item{
+    padding-top: 15px;
+}
+.footer_item p{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.footer_item h3{
+    color:yellow;
+    font-family: 'Yeseva One', cursive;
+}
+
+
+
+/* TESTIMONIALS */
+.shadow-effect{
+    background:#fff;
+    padding:20px;
+    border-radius: 4px;
+    text-align: center;
+    border:1px solid #ececec;
+    /* box-shadow: 0 19px 38px rgba(255,255,255,0.08), 0 15px 12px rgba(255,255,255,0.08); */
+} 
+
+.shadow-effect p{
+    font-size: 18px;
+    font-weight: 200;
+}
+#customers-testimonials .shadow-effect p{
+    font-family: inherit;
+    font-size: 17px;
+    line-height: 1.5;
+    margin:0 0 17px 0;
+    font-weight:300;
+}
+
+#customers-testimonials .item{
+    text-align: center;
+    margin-bottom: 20px;
+    opacity: 0.2;
+    -webkit-transform: scale3d(0.8,0.8,1);
+    transform: scale3d(0.8,0.8,1);
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+#customers-testimonials .owl-item.active.center .item{
+    opacity: 1;
+    -webkit-transform: scale3d(1,1,1);
+    transform: scale3d(1,1,1);
+}
+
+
+#customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
+#customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span{
+    background-color:black;
+    border-radius: 50%;
+    transform:translate3d(0px, -50%, 0px) scale(0.7);
+}
+#customers-testimonials.owl-carousel .owl-dots{
+    display: inline-block;
+    width:100%;
+    text-align:center;
+}
+
+#customers-testimonials.owl-carousel .owl-dots .owl-dot{
+    display: inline-block;
+}
+
+#customers-testimonials.owl-carousel .owl-dots .owl-dot span{
+    background:grey;
+    border-radius: 50%;
+    display: inline-block;
+    height:20px;
+    margin:0 2px 5px;
+    transform:translate3d(0px, -50%, 0px) scale(0.3);
+    transform-origin: 50% 50% 0;
+    transition: all 250ms ease-out 0s;
+    width:20px;
+}
+
+  
