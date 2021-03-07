@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sansita+Swashed:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #ff4f00;
+    --white: #ffffff;
+    indigo: #6610f2;
+    purple: #6f42c1;
+    pink: #d63384;
+    red: #dc3545;
+    orange: #fd7e14;
+    yellow: #ffc107;
+    green: #198754;
+    teal: #20c997;
+    cyan: #0dcaf0;
+}
+
+.navbar {
+    background-color: #ff4f00;
+}
+
+.nav-item a {
+    color: white !important;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.navbar-nav>.active {
+    color: #7C2529 !important;
+}
+
+/* Product Banner */
+.product_banner {
+    width: 100%;
+    position: relative;
+
+
+}
+
+.catagory  a{
+    color: #5F249F;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 26px;
+    font-weight: 900;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+/* footer */
+.footer {
+    background-color: #DB291D;
+}
+
+.footer_item {
+    padding-top: 15px;
+}
+
+.footer_item p {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footer_item h3 {
+    color: yellow;
+    font-family: 'Yeseva One', cursive;
+}

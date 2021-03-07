@@ -24,11 +24,11 @@
 }
 
 .navbar {
-    background-color: var(--primary);
+    background-color: #ff4f00;
 }
 
 .nav-item a {
-    color: white !important;
+    
     font-size: 18px;
     font-weight: 500;
     margin-right: 10px;
