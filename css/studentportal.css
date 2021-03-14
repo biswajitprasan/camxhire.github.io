@@ -186,7 +186,14 @@ p.copyright {
     }
     .icon-login{
         margin-left: 100px;
+        margin-top: 50px;
 
+    }
+    #view_image {
+        margin-left: 100px;
+    }
+    #apply_image {
+        margin-left: 95px;
     }
     .cpy-rights{
         margin-top: 13.3cm;

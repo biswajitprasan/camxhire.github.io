@@ -15,7 +15,9 @@ h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
-
+#logo{
+    float: right;
+}
 .topnav {
     font-size: 14px; 
 }
@@ -178,4 +180,30 @@ p.copyright {
 }
 .list-inline > li {
     padding-right: 80px !important;
+}
+ul{
+    list-style: none;
+}
+.nav_right{
+    float: ;
+}
+@media only screen and (max-width: 600px) {
+    #student, #campus,#company{
+        margin-left: 2cm;
+    }
+    
+    .icon-login{
+        margin-left: 100px;
+
+    }
+    #view_image {
+        margin-left: 100px;
+    }
+    #apply_image {
+        margin-left: 95px;
+    }
+    .cpy-rights{
+        margin-top: 13.3cm;
+    }
+
 }
