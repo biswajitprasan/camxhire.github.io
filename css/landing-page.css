@@ -189,7 +189,7 @@ ul{
 }
 @media only screen and (max-width: 600px) {
     #student, #campus,#company{
-        margin-left: 2cm;
+        margin-left: 2.1cm;
     }
     
     .icon-login{
